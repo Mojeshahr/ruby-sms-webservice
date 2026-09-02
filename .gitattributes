@@ -1,0 +1,17 @@
+# پایان خط همه‌جا LF. بدون این، کلون روی ویندوز با autocrlf همه فایل‌ها را
+# CRLF می‌کند و اولین کامیت، کل مخزن را بازنویسی‌شده نشان می‌دهد.
+* text=auto eol=lf
+
+# دارایی‌های دودویی: نه یکسان‌سازی خط، نه دیف متنی.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
