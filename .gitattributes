@@ -15,3 +15,8 @@
 *.woff2 binary
 *.ttf   binary
 *.eot   binary
+
+# گیتهاب مسیر examples/ را «مستندات» می‌شمارد و از آمار زبان کنار می‌گذارد،
+# پس مخزنی که همه کدش آنجاست اصلاً بدون زبان دیده می‌شود. این خط همان
+# برچسب را برمی‌دارد.
+examples/** linguist-documentation=false
