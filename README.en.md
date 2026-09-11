@@ -137,10 +137,32 @@ The `v3` in the path is deliberate. A new service version means a new
 
 ## Documentation and support
 
-The full guide is at [docs.payam-resan.com](https://docs.payam-resan.com). The
-machine-readable OpenAPI description is in
+The full guide to the web service is at
+[docs.payam-resan.com](https://docs.payam-resan.com), and the machine-readable
+OpenAPI description is in
 [sms-webservice-spec](https://github.com/Mojeshahr/sms-webservice-spec).
+
+Question or bug? [Open an issue](https://github.com/Mojeshahr/ruby-sms-webservice/issues)
+or contact [support](https://payam-resan.com).
 
 ## License
 
-MIT. Full text in [`LICENSE`](LICENSE).
+Released under the MIT license. Full text in [`LICENSE`](LICENSE).
+
+<br>
+<div align="center">
+  <sub>
+    <img src=".github/assets/logo.svg" width="16" height="16" alt="" align="top">
+    &nbsp;<b>Payam Resan SMS Panel - Moje Shahr</b>&nbsp;
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/mojeshahr-dark.svg">
+      <img src=".github/assets/mojeshahr-light.svg" width="16" height="16" alt="" align="top">
+    </picture>
+  </sub>
+  <br>
+  <sub>
+    <a href="https://payam-resan.com">payam-resan.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://mojeshahr.ir">mojeshahr.ir</a>
+  </sub>
+</div>

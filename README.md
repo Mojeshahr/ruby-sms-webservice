@@ -146,6 +146,27 @@ end
 است. توصیف ماشین‌خوان OpenAPI هم در
 [sms-webservice-spec](https://github.com/Mojeshahr/sms-webservice-spec).
 
+سؤال یا خطایی هست؟ [issue باز کنید](https://github.com/Mojeshahr/ruby-sms-webservice/issues)
+یا با [پشتیبانی](https://payam-resan.com) تماس بگیرید.
+
 ## مجوز
 
 منتشرشده با مجوز MIT. متن کامل در [`LICENSE`](LICENSE).
+
+<br>
+<div align="center">
+  <sub>
+    <img src=".github/assets/logo.svg" width="16" height="16" alt="" align="top">
+    &nbsp;<b>پنل پیامکی پیام رسان - موج شهر</b>&nbsp;
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/mojeshahr-dark.svg">
+      <img src=".github/assets/mojeshahr-light.svg" width="16" height="16" alt="" align="top">
+    </picture>
+  </sub>
+  <br>
+  <sub>
+    <a href="https://payam-resan.com">payam-resan.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://mojeshahr.ir">mojeshahr.ir</a>
+  </sub>
+</div>
