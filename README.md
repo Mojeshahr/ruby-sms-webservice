@@ -60,6 +60,8 @@ ruby examples/v3/account-info.rb
 | [token-list.rb](examples/v3/token-list.rb) | `TokenList` | فهرست قالب‌ها |
 | [send-token-single.rb](examples/v3/send-token-single.rb) | `SendTokenSingle` | ارسال قالب به یک شماره |
 | [send-token-single-get.rb](examples/v3/send-token-single-get.rb) | `SendTokenSingle` | همان، با `GET` |
+| [send-token-single-concat-param.rb](examples/v3/send-token-single-concat-param.rb) | `SendTokenSingleConcatParam` | مقادیر قالب در رشته `p` با جداکننده نقطه‌ویرگول |
+| [send-token-single-concat-param-get.rb](examples/v3/send-token-single-concat-param-get.rb) | `SendTokenSingleConcatParam` | همان، با `GET` |
 | [send-token-multi.rb](examples/v3/send-token-multi.rb) | `SendTokenMulti` | یک قالب، چند گیرنده |
 | [status-by-id.rb](examples/v3/status-by-id.rb) | `StatusById` | وضعیت با شناسه سامانه |
 | [status-by-user-trace-id.rb](examples/v3/status-by-user-trace-id.rb) | `StatusByUserTraceId` | وضعیت با شناسه خودتان |
@@ -84,7 +86,7 @@ ruby examples/v3/account-info.rb
 
 ```ruby
 response = HTTParty.post(
-  "https://api.sms-webservice.com/api/V3/SendBulk",
+  "https://www.payam-resan.com/api/V3/SendBulk",
   headers: { "Content-Type" => "application/json; charset=utf-8" },
   body: JSON.generate(
     "ApiKey" => ENV.fetch("PAYAM_RESAN_API_KEY"),

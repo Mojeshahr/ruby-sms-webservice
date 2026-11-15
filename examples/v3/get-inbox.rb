@@ -19,7 +19,7 @@ require "uri"
 
 payload = { "ApiKey" => ENV.fetch("PAYAM_RESAN_API_KEY") }
 
-uri = URI("https://api.sms-webservice.com/api/V3/GetInbox")
+uri = URI("https://www.payam-resan.com/api/V3/GetInbox")
 
 answer = Net::HTTP.start(uri.host, uri.port, use_ssl: true, open_timeout: 30, read_timeout: 30) do |http|
   http.post(uri.path, JSON.generate(payload), "Content-Type" => "application/json; charset=utf-8")

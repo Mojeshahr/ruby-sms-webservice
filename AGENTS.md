@@ -1,7 +1,7 @@
 # Working with this repository
 
 You are looking at runnable Ruby examples for the **Payam Resan** SMS web
-service (`api.sms-webservice.com`, API V3), an Iranian SMS provider. Someone is
+service (`www.payam-resan.com`, API V3), an Iranian SMS provider. Someone is
 probably asking you to add SMS to their project.
 
 Copy the example that matches the method, adapt it, and keep the rules below.

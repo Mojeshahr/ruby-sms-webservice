@@ -22,7 +22,7 @@ payload = {
   "UserTraceIds" => [1001, 1002]
 }
 
-uri = URI("https://api.sms-webservice.com/api/V3/StatusByUserTraceId")
+uri = URI("https://www.payam-resan.com/api/V3/StatusByUserTraceId")
 
 answer = Net::HTTP.start(uri.host, uri.port, use_ssl: true, open_timeout: 30, read_timeout: 30) do |http|
   http.post(uri.path, JSON.generate(payload), "Content-Type" => "application/json; charset=utf-8")

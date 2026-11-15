@@ -23,7 +23,7 @@ query = {
   "Recipients" => "9121112222,9121113333"
 }
 
-uri = URI("https://api.sms-webservice.com/api/V3/Send")
+uri = URI("https://www.payam-resan.com/api/V3/Send")
 
 # encode_www_form دقیقاً یک بار encode می‌کند. اگر متن را خودتان هم پیش از
 # این encode_www_form_component کنید، پیامک با نویسه‌های %D8 به گوشی می‌رسد.
